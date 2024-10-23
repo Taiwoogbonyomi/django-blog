@@ -18,10 +18,5 @@ class Migration(migrations.Migration):
             name='post',
             options={'ordering': ['-created_on']},
         ),
-        migrations.AddField(
-            model_name='post',
-            name='field_1',
-            field=models.CharField(default='test'),
-            preserve_default=False,
-        ),
+        
     ]
