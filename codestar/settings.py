@@ -29,7 +29,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'T.A.I.W.O'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-taiwoogbonyo-djangoblog-baphzd66pj4.ws.codeinstitute-ide.net','.herokuapp.com']
 
